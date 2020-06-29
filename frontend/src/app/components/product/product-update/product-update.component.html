@@ -1,0 +1,29 @@
+<mat-card>
+  <mat-card-title class="title-form">Alterar produto</mat-card-title>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+      <input 
+        matInput 
+        placeholder="Nome" 
+        name="name" 
+        formControlName="name" 
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+        matInput
+        placeholder="Preço (R$)"
+        name="price"
+        formControlName="price"
+      />
+    </mat-form-field>
+
+    <button type="submit" mat-raised-button color="primary">
+      Alterar
+    </button>
+
+    <button type="button" mat-raised-button (click)="cancel()">
+      Cancelar
+    </button>
+  </form>
+</mat-card>

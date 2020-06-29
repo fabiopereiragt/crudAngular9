@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Monitor Led 29'",
+      "price": 680.99
+    },
+    {
+      "id": 2,
+      "name": "Teclado mecânico",
+      "price": 199.99
+    },
+    {
+      "id": 5,
+      "name": "Mouses",
+      "price": 25
+    },
+    {
+      "id": 7,
+      "name": "Câmara Coder",
+      "price": "1.55"
+    },
+    {
+      "id": 8,
+      "name": "Caneta Azul",
+      "price": "2.34"
+    },
+    {
+      "id": 11,
+      "name": "Celular Samsung",
+      "price": "5003.00"
+    },
+    {
+      "name": "Óculus",
+      "price": "856.66",
+      "id": 12
+    }
+  ]
+}

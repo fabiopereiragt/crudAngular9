@@ -1,0 +1,12 @@
+form :not(button){  /*Aplica os estilos com exceção da tag ou classe que passar dentro do parênteses  */
+  display: flex;
+  flex-direction: column;
+}
+
+.title-form{
+  margin-bottom: 30px;;
+}
+
+button{
+  margin: 20px 15px 0px 0px; /* Primeiro argumento é o topo, depois corre sentido horário: direita, embaixo e esquerda */
+}
